@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a.hover {
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+img {
+    width: 100%;
+}
+
+/* ---------------------------------------- HEADER start -------------------------------------*/
+.header {
+    height: 986px;
+}
+
+.header-content {
+    background: url(../images/paul-trienekens-cYW4ROUmzzQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.menu{
+    padding: 50px 0;
+    background: #fff;
+}
+.logo{
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: 900;
+    line-height: 28px;
+    font-size: 40px;
+    color: rgba(1, 21, 85, 0.70);
+}
+.logo:hover{
+    color: rgba(1, 21, 85, 0.70);
+    text-decoration: none;
+}
+.burger-menu{
+    font-size: 25px;
+    color: #746f77;
+    cursor: pointer;
+}
